@@ -6,6 +6,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "bin":{
+    "brain-games": "bin/brain-games.js"
   },
   "repository": {
     "type": "git",
