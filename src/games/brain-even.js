@@ -1,28 +1,15 @@
-import readlineSync from 'readline-sync';
-import getRandom from '../adc/getRandom.js'
+import getRandom from '../adc/getRandom.js';
+import playGame from '../index.js';
 
+const discriptionEven = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-const braineven = () => {
-    console.log('Welcome to the Brain-Games!');
-    const userName = readlineSync.question('May I have your name? ');
-    console.log(`Hello, ${userName}!`);
-    console.log ('Answer "yes" if the number is even, otherwise answer "no".')
-    for (let i = 0; i < 3; i += 1) {
-        const number = getRandom (0,20);
-        console.log ('Question: ', number);
-        const answer = readlineSync.question('Your answer: ');
+const isEven = (num) => (num % 2 === 0);
 
-        const check1 = (number % 2 === 0) && (answer === "yes");
-        const check2 = (number % 2 !== 0) && (answer === 'no');
+const genRound = () => {
+    const num = getRandom (0,20);
+    const question = num;
+    const answer = isEven(num) ? 'yes' : 'no';
+    return [question, answer];
+};
 
-        if (check1 === true || check2 === true) {
-        console.log ('Correct!');
-    } else {
-        const wronganswer = (answer === 'yes' ? 'no' : 'yes');
-        console.log(`"${answer}" is wrong answer ;(. Correct answer was "${wronganswer}".`);
-      console.log(`Let's try again, ${userName}!`);
-      return;
-    }
-}
-    console.log (`Congratulations, ${userName}`)
-}; export default braineven;
+export default () => playGame(discriptionEven, genRound);
