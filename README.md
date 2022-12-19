@@ -7,3 +7,5 @@
 <a href="https://asciinema.org/a/0PCQghBp7nHoqcD7fC6aJIVyo" target="_blank"><img src="https://asciinema.org/a/0PCQghBp7nHoqcD7fC6aJIVyo.svg" /></a>
 ### brain-calc
 <a href="https://asciinema.org/a/K3zfJGlsbLCcbIqiDl16Y2qH5" target="_blank"><img src="https://asciinema.org/a/K3zfJGlsbLCcbIqiDl16Y2qH5.svg" /></a>
+### brain-nod
+<a href="https://asciinema.org/a/PmxKeZHQDT3WpyN3JpEVE6yxX" target="_blank"><img src="https://asciinema.org/a/PmxKeZHQDT3WpyN3JpEVE6yxX.svg" /></a>
