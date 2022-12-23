@@ -9,3 +9,5 @@
 <a href="https://asciinema.org/a/K3zfJGlsbLCcbIqiDl16Y2qH5" target="_blank"><img src="https://asciinema.org/a/K3zfJGlsbLCcbIqiDl16Y2qH5.svg" /></a>
 ### brain-nod
 <a href="https://asciinema.org/a/PmxKeZHQDT3WpyN3JpEVE6yxX" target="_blank"><img src="https://asciinema.org/a/PmxKeZHQDT3WpyN3JpEVE6yxX.svg" /></a>
+### brain-progression
+<a href="https://asciinema.org/a/umftA9MyH0nIgpTuwxdbxl6SB" target="_blank"><img src="https://asciinema.org/a/umftA9MyH0nIgpTuwxdbxl6SB.svg" /></a>
