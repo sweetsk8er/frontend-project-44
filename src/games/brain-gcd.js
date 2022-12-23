@@ -1,7 +1,7 @@
-import getRandom from "../adc/getRandom.js";
-import playGame from "../index.js";
+import getRandom from '../adc/getRandom.js';
+import playGame from '../index.js';
 
-const discriptionNOD = "Find the greatest common divisor of given numbers.";
+const discriptionNOD = 'Find the greatest common divisor of given numbers.';
 
 const nod = (num1, num2) => {
   const maxnum = Math.max(num1, num2);
