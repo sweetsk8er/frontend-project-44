@@ -1,7 +1,7 @@
 import getRandom from "../adc/getRandom.js";
 import playGame from "../index.js";
 
-const discriptionProg = 'What number is missing in the progression?';
+const discriptionProg = "What number is missing in the progression?";
 
 const progress = () => {
     const start = getRandom(1,100);
@@ -22,7 +22,7 @@ const genRound = () => {
     const answer = String(randomPartInProgression);
 
     const questionIndex = [...progression];
-    questionIndex[randomIndex] = '...';
+    questionIndex[randomIndex] = '..';
     const question = questionIndex.join(' ');
     return [question, answer];
 };
