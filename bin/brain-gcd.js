@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import brainnod from '../src/games/brain-nod.js';
+import braingcd from '../src/games/brain-gcd.js';
 
-brainnod();
+braingcd();
