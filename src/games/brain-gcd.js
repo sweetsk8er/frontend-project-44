@@ -16,8 +16,8 @@ const nod = (num1, num2) => {
 };
 
 const genRound = () => {
-  const num1 = getRandom(0, 20);
-  const num2 = getRandom(0, 20);
+  const num1 = getRandom(1, 20);
+  const num2 = getRandom(1, 20);
   const answer = String(nod(num1, num2));
   const question = `${num1} ${num2}`;
   return [question, answer];
