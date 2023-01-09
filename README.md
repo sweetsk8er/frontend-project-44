@@ -3,6 +3,7 @@
 ### Code Climate:
 <a href="https://codeclimate.com/github/sweetsk8er/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/f6de637260f1911dd391/maintainability" /></a>
 ### Installation
+
 1. Clone from git: git clone https://github.com/sweetsk8er/frontend-project-44.git
 2. Move to project: cd frontend-project-44
 3. Install project: make install
