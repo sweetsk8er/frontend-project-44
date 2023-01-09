@@ -1,9 +1,9 @@
-import getRandom from '../adc/getRandom.js';
+import getRandom from '../utilities/getRandom.js';
 import playGame from '../index.js';
 
 const discriptionProg = 'What number is missing in the progression?';
 
-const progress = () => {
+const getProgress = () => {
   const start = getRandom(1, 100);
   const step = getRandom(1, 10);
   const length = getRandom(5, 10);
@@ -16,14 +16,13 @@ const progress = () => {
 };
 
 const genRound = () => {
-  const progression = progress();
+  const progression = getProgress();
   const randomIndex = getRandom(0, progression.length - 1);
   const randomPartInProgression = progression[randomIndex];
   const answer = String(randomPartInProgression);
 
-  const questionIndex = [...progression];
-  questionIndex[randomIndex] = '..';
-  const question = questionIndex.join(' ');
+  progression[randomIndex] = '..';
+  const question = progression.join(' ');
   return [question, answer];
 };
 export default () => playGame(discriptionProg, genRound);

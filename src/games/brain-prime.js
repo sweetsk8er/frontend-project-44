@@ -1,9 +1,9 @@
-import getRandom from '../adc/getRandom.js';
+import getRandom from '../utilities/getRandom.js';
 import playGame from '../index.js';
 
 const discriptionPrime = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const prime = (num) => {
+const isPrime = (num) => {
   if (num < 2) {
     return false;
   }
@@ -18,7 +18,7 @@ const prime = (num) => {
 const genRound = () => {
   const num = getRandom(0, 20);
   const question = num;
-  const answer = prime(num) ? 'yes' : 'no';
+  const answer = isPrime(num) ? 'yes' : 'no';
   return [question, answer];
 };
 export default () => playGame(discriptionPrime, genRound);

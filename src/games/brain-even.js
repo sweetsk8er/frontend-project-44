@@ -1,4 +1,4 @@
-import getRandom from '../adc/getRandom.js';
+import getRandom from '../utilities/getRandom.js';
 import playGame from '../index.js';
 
 const discriptionEven = 'Answer "yes" if the number is even, otherwise answer "no".';

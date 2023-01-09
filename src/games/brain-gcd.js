@@ -1,9 +1,9 @@
-import getRandom from '../adc/getRandom.js';
+import getRandom from '../utilities/getRandom.js';
 import playGame from '../index.js';
 
 const discriptionNOD = 'Find the greatest common divisor of given numbers.';
 
-const nod = (num1, num2) => {
+const getnod = (num1, num2) => {
   const maxnum = Math.max(num1, num2);
   const maxdel = Math.round(maxnum / 2);
 
@@ -18,7 +18,7 @@ const nod = (num1, num2) => {
 const genRound = () => {
   const num1 = getRandom(1, 20);
   const num2 = getRandom(1, 20);
-  const answer = String(nod(num1, num2));
+  const answer = String(getnod(num1, num2));
   const question = `${num1} ${num2}`;
   return [question, answer];
 };

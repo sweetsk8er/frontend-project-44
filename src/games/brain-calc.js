@@ -1,4 +1,4 @@
-import getRandom from '../adc/getRandom.js';
+import getRandom from '../utilities/getRandom.js';
 import playGame from '../index.js';
 
 const discriptionCalc = 'What is the result of the expression?';
