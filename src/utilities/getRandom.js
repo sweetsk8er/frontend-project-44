@@ -5,4 +5,3 @@ const getRandom = (min, max) => {
 };
 
 export default getRandom;
-ы
