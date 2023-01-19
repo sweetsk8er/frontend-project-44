@@ -6,8 +6,9 @@ const discriptionNOD = 'Find the greatest common divisor of given numbers.';
 const getnod = (num1, num2) => {
   const maxnum = Math.max(num1, num2);
   const maxdel = Math.round(maxnum / 2);
-
-  for (let i = maxdel; i >= 1; i -= 1) {
+  if (num1 === num2) {
+    return num1;
+  } for (let i = maxdel; i >= 1; i -= 1) {
     if ((num1 % i === 0) && (num2 % i === 0)) {
       return i;
     }
