@@ -10,12 +10,12 @@
 4. Add bin files to global env: sudo npm link
 ### Ascinemas
 ### brain-even
-<a href="https://asciinema.org/a/0PCQghBp7nHoqcD7fC6aJIVyo" target="_blank"><img src="https://asciinema.org/a/0PCQghBp7nHoqcD7fC6aJIVyo.svg" /></a>
+<a href="https://asciinema.org/a/24HDfaoccgD7WcCsMIS7i2xCR" target="_blank"><img src="https://asciinema.org/a/24HDfaoccgD7WcCsMIS7i2xCR.svg" /></a>
 ### brain-calc
-<a href="https://asciinema.org/a/K3zfJGlsbLCcbIqiDl16Y2qH5" target="_blank"><img src="https://asciinema.org/a/K3zfJGlsbLCcbIqiDl16Y2qH5.svg" /></a>
-### brain-nod
-<a href="https://asciinema.org/a/PmxKeZHQDT3WpyN3JpEVE6yxX" target="_blank"><img src="https://asciinema.org/a/PmxKeZHQDT3WpyN3JpEVE6yxX.svg" /></a>
+<a href="https://asciinema.org/a/ZxAj0sLWNo9AlEvMbzTVdn40S" target="_blank"><img src="https://asciinema.org/a/ZxAj0sLWNo9AlEvMbzTVdn40S.svg" /></a>
+### brain-gcd
+<a href="https://asciinema.org/a/c9GyOSNaxfMzJ8qglukb6oD54" target="_blank"><img src="https://asciinema.org/a/c9GyOSNaxfMzJ8qglukb6oD54.svg" /></a>
 ### brain-progression
-<a href="https://asciinema.org/a/umftA9MyH0nIgpTuwxdbxl6SB" target="_blank"><img src="https://asciinema.org/a/umftA9MyH0nIgpTuwxdbxl6SB.svg" /></a>
+<a href="https://asciinema.org/a/V3SJlJ7uuvENjmFenSrzFRSHN" target="_blank"><img src="https://asciinema.org/a/V3SJlJ7uuvENjmFenSrzFRSHN.svg" /></a>
 ### brain-prime
-<a href="https://asciinema.org/a/dwawcrIIyvLwTE1tAdvzDAw2D" target="_blank"><img src="https://asciinema.org/a/dwawcrIIyvLwTE1tAdvzDAw2D.svg" /></a>
+<a href="https://asciinema.org/a/5ViSob0UQGZIQiNx7jhgKIufi" target="_blank"><img src="https://asciinema.org/a/5ViSob0UQGZIQiNx7jhgKIufi.svg" /></a>
