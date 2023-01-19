@@ -8,6 +8,7 @@
 2. Move to project: cd frontend-project-44
 3. Install project: make install
 4. Add bin files to global env: sudo npm link
+
 ### Ascinemas
 ### brain-even
 <a href="https://asciinema.org/a/24HDfaoccgD7WcCsMIS7i2xCR" target="_blank"><img src="https://asciinema.org/a/24HDfaoccgD7WcCsMIS7i2xCR.svg" /></a>
